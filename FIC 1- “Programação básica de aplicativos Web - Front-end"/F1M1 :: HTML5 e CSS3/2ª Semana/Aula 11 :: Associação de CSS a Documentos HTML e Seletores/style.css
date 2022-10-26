@@ -1,0 +1,44 @@
+h1{
+    font-style: italic;
+}
+
+.destacado {
+    color: red;
+}
+
+#txtNome {
+    font-family: fantasy;
+}
+
+p , h2 {
+    color: blueviolet;
+            font-size: smaller;
+}
+
+.textoSimples {
+    color: aqua;
+}
+
+ul {
+    color: chartreuse;
+}
+
+ol {
+    color: crimson;
+}
+
+dd , dt {
+    color: darkolivegreen;
+}
+
+hr {
+    color: antiquewhite;
+}
+
+i, p {
+    color: blue;
+}
+
+p, strong {
+    color: brown;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 09</title>
+</head>
+
+<body>
+    <form action="/contato/cotar/" method="POST">
+
+        <label for=" txtName"><b>Nome Completo</b></label><br>
+        <input type="text" name="Nome Completo" placeholder="Insira seu nome Completo" id="txtName"><br><br>
+
+        <fieldset>
+            <legend><b>Tipo de animal</b></legend>
+            <input type="radio" name="cachorro" id="rdDog" value=DOG>
+            <label for="rdDog">Cachorro</label><br><br>
+
+            <input type="radio" name="coelho" id="rdRab" value=RABIT>
+            <label for="rdRab">Coelho</label><br><br>
+
+            <input type="radio" name="gato" id="rdCat" value=CAT>
+            <label for="rdCat">Gato</label><br><br>
+
+            <input type="radio" name="passaro" id="rdBird" value=BIRD>
+            <label for="rdDog">Pássaro</label>
+        </fieldset>
+
+        <p>
+            <label for="txtServices"><b>Serviços</b></label><br>
+            <input type="text" name="Serviços" id="txtServices" list="servs">
+            <datalist id="servs">
+                <option value="Banho">
+                <option value="Tosa">
+                <option value="Patinha">
+                <option value="Hospedagem">
+                <option value="Adestramento">
+            </datalist>
+        <P>
+            <label for="textarea"><b>Insira aqui suas observações</b></label>
+            <textarea name="Observações" id="txtOBS" cols="60" rows="17"></textarea>
+        </P>
+
+
+        <P>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </P>
+
+    </form>
+</body>
+
+</html>
