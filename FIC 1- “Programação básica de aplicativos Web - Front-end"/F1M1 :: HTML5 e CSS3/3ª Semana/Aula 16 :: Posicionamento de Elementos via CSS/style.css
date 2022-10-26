@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic&display=swap');
+
+body {
+    width: 80%;
+    padding: 0% 10%;
+    margin: 10%;
+}
+
+div {
+    display: inline-block;
+}
+
+div:hover {
+    opacity: 100%;
+    transition: 0.8s;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+}
+
+a p {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.d1 {
+    background-color: gray;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+}
+
+.d2 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    opacity: 0.5;
+    transition: 0.8s;
+ 
+    
+}
+
+.d3 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 500px;
+    opacity: 0.5;
+    transition: 0.8s;
+}
+
+.d4 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 250px;
+    bottom: 250px;
+    opacity: 0.5;
+    transition: 0.8s;
+}
+
+.d5 {
+    background-color: green;
+    width: 80%;
+    height: 30px;
+    position: relative;
+    top: 800px;
+}

@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e5e9f0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.left {
+    position: fixed;
+    height: 100vh;
+    width: 18vw;
+}
+
+aside {
+    background-color: #eceff4;
+    height: 60vh;
+    padding: 10px;
+}
+
+.perfil img {
+    width: 100%;
+    border-radius: 5%;
+}
+
+.links {
+    padding: 10px 0;
+}
+
+.links a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding-block: 3px;
+}
+
+.links img {
+    width: 20px;
+}
+
+aside nav a {
+    width: 20px;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.right {
+    position: static;
+    width: 62vw;
+    margin-left: 18vw;
+    overflow: hidden;
+}
+
+header, .artigo {
+    padding-left: 10px;
+}
+
+header h1, h2 {
+    margin: 0%;
+    padding-top: 10px;
+}
+
+hr {
+    background-color: #d8dee9;
+    height: 5px;
+    border: none;
+}
+
+.h1 {
+    float: left;
+    width: 40%;
+    background-color: #eceff4;
+    height: 350px;
+}
+
+.h1 h2 {
+    padding: 30px 15px;
+}
+
+.h1 a {
+    border: none;
+    text-decoration: none;
+    background-color: #2e3440;
+    padding: 10px;
+    color: #d8dee9;
+    transition: 0.5s;
+}
+
+.h1 a:hover {
+    background-color: #d8dee9;
+    border: #2e3440;
+    color: #4c566a;
+    transition: 0.5s;
+}
+
+.align {
+    padding-left: 20px;
+}
+
+.h2 {
+    float: right;
+    width: 60%;
+}
+
+.h2 img {
+    width: 100%;
+    height: 350px;
+}
+
+.empty {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-color: #c2c2c2;
+}
+
+.empty p {
+    padding-top: 10px;
+    margin: 0%;
+}
+
+#w80 {
+    width: 80%;
+    background-color: #343334;
+    height: 40px;
+}
+
+#w40 {
+    width: 40%;
+    background-color: #343334;
+    height: 40px;
+}
+
+#w70 {
+    width: 70%;
+    background-color: #343334;
+    height: 40px;
+}
+
+#w100 {
+    width: 100%;
+    background-color: #343334;
+    height: 40px;
+}
+
+#w60 {
+    width: 60%;
+    background-color: #343334;
+    height: 40px;
+}
+
+#w30 {
+    width: 30%;
+    background-color: #343334;
+    height: 40px;
+}
+
+.academia p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.skills>p {
+    margin-bottom: 5px;
+}
+
+.idiomas>p {
+    margin-bottom: 5px;
+}
+
+.figure img {
+    width: 100%;
+    border-bottom: 3px solid #e5e9f0;
+}
+
+.figure {
+    clear: both;
+}
+
+.box {
+    float: left;
+    width: 33.3%;
+    box-sizing: border-box;
+    background-color: white;
+    border-right: 10px solid #e5e9f0;
+    padding: 0 3px;
+}
+
+.precos {
+    clear: both;
+}
+
+.precos table, td, tr, th {
+    border: 1px solid #dfe2e7;
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+}
+
+.precos th {
+    width: 33%;
+}
+
+.precos th strong {
+    color: white;
+}
+
+.precos table td:nth-of-type(1) {
+    background-color: #eceff4;
+}
+
+.precos table td:nth-of-type(2) {
+    background-color: #BCCDBC;
+}
+
+.precos table td:nth-of-type(3) {
+    background-color: #eceff4;
+}
+
+.precos table tr:nth-of-type(1) {
+    background-color: #dfe2e7;
+}
+
+.precos a {
+    line-height: 30px;
+    border: none;
+    text-decoration: none;
+    background-color: #333;
+    padding: 10px 15px;
+    color: #d8dee9;
+    transition: 0.5s;
+}
+
+.precos a:hover {
+    background-color: #d8dee9;
+    border: #2e3440;
+    color: #4c566a;
+    transition: 0.5s;
+}
+
+.bg-form {
+    background-color: #686A6C;
+    color: #eceff4;
+}
+
+#table {
+    padding: 1% 0;
+}
+
+#table table {
+    width: 98%;
+    margin: 0px 1%;
+    height: 150px;
+}
+
+#table td {
+    width: 32.8%;
+}
+
+#table img {
+    width: 25%;
+}
+
+form label {
+    display: block;
+    padding-top: 15px;
+}
+
+form input {
+    width: 99%;
+    height: 30px;
+}
+
+form textarea {
+    width: 99%;
+    height: 60px;
+}
+
+form select {
+    width: 100.5%;
+    height: 36px;
+    background-color: white;
+    border: none;
+}
+
+.button {
+    padding: 20px 0;
+    border: none;
+
+}
+
+.button input {
+    width: 13%;
+    height: 35px;
+    border: none;
+    background-color: #333;
+    padding: 10px;
+    color: #d8dee9;
+    transition: 0.5s;
+}
+
+.button input:hover {
+    background-color: #d8dee9;
+    border: #2e3440;
+    color: #4c566a;
+    transition: 0.5s;
+}
+
+.form {
+    padding: 0 1.5%;
+}
+
+table a  {
+    text-decoration: none;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+footer {
+    padding: 10%;
+    background-color: #333;
+    border-top: 1px solid #d8dee9;
+}
+
+footer p {
+    text-align: center;
+    margin: 0%;
+    font-size: large;
+    color: #d8dee9;
+}

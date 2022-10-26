@@ -1,0 +1,36 @@
+p::after {
+    content: "+";
+}
+p::first-letter {
+    color: black;
+}
+a[href^="http"] {
+    font-family: 'Courier New', Courier, monospace;
+}
+a[href$="xlsx"] {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input[type=checkbox] {
+    font-weight: 700;
+}
+
+input:focus {
+    background-color: aqua;
+}
+
+input[type=number]:out-of-range {
+    background-color: red;
+}
+
+input[type=number]:in-range {
+    background-color: green;
+}
+
+input[type=checkbox]:checked label {
+    font-style: italic;
+}
+
+table tr:nth-child(odd) {
+    background-color: blueviolet;
+}
